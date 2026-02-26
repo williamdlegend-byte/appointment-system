@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f4f6f8;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+}
+
+.buttons {
+  margin-top: 18px;
+   
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}
+
+.outputBox {
+  border: 1px solid #ccc;
+  min-height: 40px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}

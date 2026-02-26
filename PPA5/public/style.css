@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.day {
+  
+  border: 1px solid #2b3f90;
+  min-height: 120px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  box-sizing: border-box;
+
+}
+
+.slot { 
+  background: linear-gradient(135deg, #1f3fbf, #3457ff);
+  color: white;
+  padding: 6px 8px;
+  border-radius: 8px;
+  font-size: 13px;
+
+}
+
+Button{
+    background-color: rgb(3, 75, 99);
+    border-radius: 5%;
+    color: white;
+    height: 40px;
+}
+Button:hover{
+    color: white;
+    background-color: rgb(2, 85, 16);
+}
+input{
+    height: 40px;
+}
+.slot-group{
+   
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  align-items: center;
+  margin-bottom: 25px;
+ 
+}
